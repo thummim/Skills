@@ -1,4 +1,4 @@
-double CHafpReaderView::normalLineDistance(long ptX, long ptY, long x1, long y1, long x2, long y2){
+double CView::normalLineDistance(long ptX, long ptY, long x1, long y1, long x2, long y2){
 
 	double b = -1;			// ax + by + c = 0 형식으로 나타낸 것이므로 y = ax + c 에서 변형하면 b = -1
 	double c = 0.;			// y절편
