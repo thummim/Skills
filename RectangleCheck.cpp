@@ -1,4 +1,4 @@
-bool CHafpReaderView::RectangleCheck(long startX, long startY, long endX, long endY)
+bool CView::RectangleCheck(long startX, long startY, long endX, long endY)
 {
 	long bigX = max(startX, endX);
 	long smallX = min(startX, endX);
