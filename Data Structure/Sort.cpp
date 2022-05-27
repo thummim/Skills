@@ -2,6 +2,7 @@
 using namespace std;
 vector<int> a;
 int b[5];
+
 int main()
 {
   for(int i = 5; i >= 1; i--) b[i - 1] = i;
