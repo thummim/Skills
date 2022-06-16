@@ -5,7 +5,7 @@
 using namespace std;
 deque<int> dq;
 
-// 덱은 앞에서만 꺼낼 수 있는 큐와 다르게 앞뒤로 참조가 가능함
+// 덱(Double-ended queue의 줄임말로 Deque라고 )은 앞에서만 꺼낼 수 있는 큐와 다르게 앞뒤로 참조가 가능함
 // 양방향 큐라고도 함
 
 int main()
