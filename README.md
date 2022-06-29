@@ -10,6 +10,8 @@
   * NormalLineDistance.cpp : 지도 뷰어 프로그램에서 해당 좌표가 몇사분면에 속하는지 계산하는 함수
   * Zoom.cpp : 지도 뷰어 프로그램에서 마우스 휠을 드래그 했을 때 지도 확대/축소되는 기능을 구현한 함수
   * Call by Value and Call by Reference.cpp : 값에 의한 호출과 참조에 의한 호출을 정리해둔 함수
+
+* 수학
   * Permutation.cpp : 수열
   
 * Data Structure
