@@ -21,7 +21,6 @@ int main()
 //오름차순 (1,2,3)
 	for (int i = 0; i < 3; i++)
 		v.push_back(a[i]);
-
 	do
 	{
 		printV(v);
