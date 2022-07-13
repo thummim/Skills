@@ -25,7 +25,7 @@ int main()
 	do
 	{
 		printV(v);
-	}while (next_permutation(v.begin(), v.end()));
+	} while (next_permutation(v.begin(), v.end()));
 	cout << "----------" << '\n';
 	v.clear();
 
