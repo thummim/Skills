@@ -1,4 +1,4 @@
-int CHafpReaderView::CopyCoordToClipboard()
+int CView::CopyCoordToClipboard()
 {
 	char str_Coord_x[20] = {0,};
 	char str_Coord_y[20] = {0,};
@@ -35,7 +35,7 @@ int CHafpReaderView::CopyCoordToClipboard()
 	return 0;
 }
 
-int CHafpReaderView::PasteCoordFromClipboard()
+int CView::PasteCoordFromClipboard()
 {
 	unsigned int priority_list = CF_TEXT;
 	char *p_string = NULL;
