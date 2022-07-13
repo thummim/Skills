@@ -18,6 +18,7 @@ int main()
 {
 	int a[3] = { 1, 2, 3 };
 	vector<int> v;
+	
 //오름차순 (1,2,3)
 	for (int i = 0; i < 3; i++)
 		v.push_back(a[i]);
